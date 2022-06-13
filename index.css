@@ -1,0 +1,40 @@
+div {
+    width:1200px;
+    margin:20px auto;
+}
+
+iframe.header {
+    width: 1192px;
+    height: 47px;
+    border-radius:15px 15px 0 0;
+    float:left;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+iframe.menu {
+    clear:left;
+    float:left;
+    position:relative;
+    top: -2px;
+    border: none;
+    border-radius: 0 0 0 15px;
+    width: 140px;
+    height: 700px;
+    margin-left:4px;
+	border-right:2px solid red;
+	border-left:2px solid red;
+    border-bottom: 2px solid red;
+}
+
+iframe.kandungan {
+    float:left;
+    position:relative;
+    top: -2px;
+    border:none;
+    border-radius: 0 0 15px 0;
+    width: 1050px;
+    height: 700px;
+    border-right:2px solid red;
+    border-bottom: 2px solid red;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wanna be friends?</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css" >
+    
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/">
+        <div class="banner">
+          <h1>New Friends Form</h1>
+        </div>
+        <p>Please enter your information</p>
+        <div class="item">
+          <label for="name">Name<span>*</span></label>
+          <input id="name" type="text" name="name" required/>
+        </div>
+        <div class="item">
+          <label for="email">Email Address<span>*</span></label>
+          <input id="email" type="email" name="email" required/>
+        </div>
+        <div class="item">
+          <label for="phone">Phone</label>
+          <input id="phone" type="number" name="phone" />
+        </div>
+        <div class="item">
+          <label for="bdate">Date of Birth</label>
+          <input id="bdate" type="date" name="bdate" />
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <div class="question">
+          <label>Gender</label>
+          <div class="question-answer" required/>
+            <div>
+              <input type="radio" value="none" id="radio_1" name="gender"/>
+              <label for="radio_1" class="radio"><span>Male</span></label>
+            </div>
+            <div>
+              <input  type="radio" value="none" id="radio_2" name="gender"/>
+              <label for="radio_2" class="radio"><span>Female</span></label>
+            </div>
+			<div>
+              <input  type="radio" value="none" id="radio_3" name="gender"/>
+              <label for="radio_3" class="radio"><span>Prefer not to tell</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <p>Thoughts on becoming a friend<span>*</span></p>
+          <select required/>
+            <option selected value="" disabled selected></option>
+            <option value="course-type" >Interested</option>
+            <option value="short-courses">Very Interested</option>
+            <option value="featured-courses">Super Interested</option>
+          </select>
+        </div>
+		<div class="item">
+          <p>Favourite animal<span>*</span></p>
+          <select required/>
+            <option selected value="" disabled selected></option>
+            <option value="course-type" >Cipan</option>
+            <option value="short-courses">Cipan</option>
+			<option value="course-type" >Cipan</option>
+            <option value="short-courses">Cipan</option>
+			<option value="course-type" >Cipan</option>
+            <option value="short-courses">Cipan</option>
+			<option value="course-type" >Cipan</option>
+            <option value="short-courses">Cipan</option>
+            <option value="featured-courses">Kambing</option>
+          </select>
+        </div>
+		<div class="item">
+		<p>What is your favourite day</p>
+			<input type="checkbox" id="day1" name="day1" value="Monday">
+			<label for="day1"> Monday</label><br>
+			<input type="checkbox" id="day2" name="day2" value="Tuesday">
+			<label for="day2"> Tuesday</label><br>
+			<input type="checkbox" id="day3" name="day3" value="Wednesday">
+			<label for="day3"> Wednesday</label><br>
+			<input type="checkbox" id="day4" name="day4" value="Thursday">
+			<label for="day4"> Thursday</label><br>
+			<input type="checkbox" id="day5" name="day5" value="Friday">
+			<label for="day5"> Friday</label><br>
+			<input type="checkbox" id="day6" name="day6" value="Saturday">
+			<label for="day6"> Saturday</label><br>
+			<input type="checkbox" id="day7" name="day7" value="Sunday">
+			<label for="day7"> Sunday</label><br>
+		</div>
+        <div class="btn-block">
+          <button type="submit" href="/">SUBMIT</button>
+        </div><BR>
+      </form>
+    </div>
+  </body>
+</html>

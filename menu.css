@@ -1,0 +1,50 @@
+body {
+background-color: #9dcee8
+}
+
+h1 {
+	font-family : verdana;
+	font-size: 25px;
+	font-weight: bold;
+	text-align:  center; 
+	color : #ffef0f;
+	background-color: #e85151;
+	border: 5px dashed orange;
+}
+
+#mySidenav a {
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  border: 2px dashed white;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 100px;
+  background-color: #ad0a0a;
+}
+
+#prof {
+  top: 150px;
+  background-color: #4CAF50;
+}
+
+#form {
+  top: 200px;
+  background-color: #2196F3;
+}
+
+#fm {
+  top: 280px;
+  background-color: #fcbd00;
+}

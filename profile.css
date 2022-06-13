@@ -1,0 +1,41 @@
+body
+{
+background-image : url(back5.jpg);
+}
+h1 {
+    color: red;
+    text-align: center;
+	text-shadow:1px 1px #000000;
+	font-style: bold;
+	font:1;
+}
+h2 {
+    color: blue;
+    text-align: center;
+	font-style: bold;
+	font:2;
+}
+h3 {
+    color: white;
+    text-align: left;
+	font-style: bold;
+	font:1;
+}
+
+table.table1 th {
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color: #96D4D4;
+}
+
+.table1 td {
+	background-color: #;
+}
+
+table.table2 th, .table2 td{
+	 border: 1px solid black;
+	 border-collapse: collapse;
+	 border-radius: 10px;
+	 background-color: #7bc9ae;
+}
+

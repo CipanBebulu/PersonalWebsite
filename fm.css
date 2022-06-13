@@ -1,0 +1,22 @@
+body {
+background-image: url(fmbg.jpg)
+}
+h1 {
+            font-family: verdana;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            color: white; 
+			
+			border-top-style: dotted;
+			border-right-style: solid;
+			border-bottom-style: dotted;
+			border-left-style: solid;
+
+            width: 320px;
+            padding: 20px;
+            
+            border-radius: 10px;
+            margin :25px auto 4px;
+            background-color: green;
+        }

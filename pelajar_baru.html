@@ -1,0 +1,69 @@
+<html>
+<head>
+    <link rel="stylesheet" href="borang.css">
+</head>
+
+<body>
+    <h3>Borang Pendaftaran Pelajar</h3>
+    <form method="post" action="pelajar_baru.php">
+        <table>
+            <tr>
+                <td class=warna>IDPelajar</td>
+                <td><input type="text" id="idpelajar" name="idpelajar" onblur="semak()" placeholder="eg:AB1234" maxlength=6 required></td>
+            </tr>
+            <tr>
+                <td class=warna>Nama</td>
+                <td><input class=nama type="text" id="nama" name="nama" placeholder="eg: Ahmad Skacang Bin Dee Mahmud" required></td>
+            </tr>
+            <tr>
+                <td class=warna>Umur</td>
+                <td><input type="text" name="umur" placeholder="eg: 17"></td>
+            </tr>
+            <tr>
+                <td class=warna>Kelas</td>
+                <td>
+                    <select name="kelas">
+                        <option value="1A">1A</option>
+                        <option value="1B">1B</option>
+						<option value="2A">2A</option>
+						<option value="2B">2B</option>
+						<option value="3A">3A</option>
+						<option value="3B">3B</option>
+						<option value="4A">4A</option>
+						<option value="4B">4B</option>
+						<option value="5A">5A</option>
+						<option value="5B">5B</option>
+                    </select>
+                </td>
+            </tr>
+
+        </table>
+        <input class=simpan type="submit" value="Simpan">
+    </form>
+    
+    <button class=biru  onclick="tukar_warna(0)">Biru</button>
+    <button class=hijau onclick="tukar_warna(1)">Hijau</button>
+    <button class=merah onclick="tukar_warna(2)">Merah</button>
+    <button class=hitam onclick="tukar_warna(3)">Hitam</button>
+   
+<script>
+    function semak() {
+       var id = document.getElementById("idpelajar").value;
+        if (id === "")
+            alert("Sila masukkan idpelajar");
+        else if (id.length > 6)
+            alert("Sila masukkan id tidak lebih dari 6 aksara");
+    }
+
+    function tukar_warna(n) {
+        var warna = ["Blue", "Green", "Red", "Black"];
+        var teks = document.getElementsByClassName("warna");
+        for (var i = 0; i < teks.length; i++)
+        teks[i].style.color = warna[n];
+    }
+		
+</script>
+    
+    
+</body>
+</html>
